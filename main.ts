@@ -280,6 +280,10 @@ namespace userconfig {
     export const ARCADE_SCREEN_WIDTH = 240
     export const ARCADE_SCREEN_HEIGHT = 180
 }
+info.onLifeZero(function () {
+    web.open(info.score().toString())
+    game.gameOver(false)
+})
 createSplashBase()
 pause(4000)
 music.setVolume(20)
