@@ -1,6 +1,6 @@
 {
     "name": "test",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependencies": {
         "device": "*",
         "pxt-arcade-display-strings": "github:robo-technical-group/pxt-arcade-display-strings#v1.0.5",
