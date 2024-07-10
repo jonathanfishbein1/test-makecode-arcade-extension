@@ -1,6 +1,11 @@
 {
     "name": "test",
     "version": "0.0.0",
+    "dependencies": {
+        "device": "*",
+        "pxt-arcade-display-strings": "github:robo-technical-group/pxt-arcade-display-strings#v1.0.5",
+        "arcade-browser": "github:pelikhan/arcade-browser#v0.0.4"
+    },
     "files": [
         "main.ts",
         "tilemap.g.jres",
@@ -8,15 +13,14 @@
         "images.g.jres",
         "images.g.ts"
     ],
+    "testDependencies": {},
+    "targetVersions": {
+        "target": "2.0.3",
+        "targetId": "arcade"
+    },
     "supportedTargets": [
         "arcade"
     ],
-    "dependencies": {
-        "device": "*",
-        "pxt-arcade-display-strings": "github:robo-technical-group/pxt-arcade-display-strings#v1.0.5",
-        "arcade-browser": "github:pelikhan/arcade-browser#v0.0.4"
-    },
-    "testDependencies": {},
     "preferredEditor": "tsprj",
     "disableTargetTemplateFiles": true
 }
